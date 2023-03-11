@@ -33,7 +33,7 @@
 .coin_price {
   display: flex;
   justify-content: space-between;
-  width: 110px;
+  /* width: 110px; */
 }
 .coin_volume {
   width: 155px;
@@ -41,7 +41,7 @@
 .coin_data {
   /* display: flex;
   justify-content: space-between; */
-  text-align: center;
+  /* text-align: center; */
   width: 100%;
   /* width: 670px; */
 }

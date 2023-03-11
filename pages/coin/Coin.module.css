@@ -1,9 +1,13 @@
 .coin_page {
-
+    display: flex;
+    justify-content:center;
 }
 .coin_container {
-
+    display: flex;
+    justify-content:center;
+    width:400px;
+    align-items: center;
 }
 .coin_img {
-    
+
 }
