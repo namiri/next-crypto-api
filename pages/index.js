@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home({ coins }) {
   const [searchtxt, setSearchtxt] = useState("");
-  const allCoins = coins.filter((coin) => coin.name.includes(searchtxt.toLowerCase()));
+  const allCoins = coins.filter((coin) => coin.name.toLowerCase().includes(searchtxt.toLowerCase()));
   // console.log(coins);
   const handleChange = (e) => {
     setSearchtxt(e.target.value);
